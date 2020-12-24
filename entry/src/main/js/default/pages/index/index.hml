@@ -1,0 +1,17 @@
+<div class="container">
+    <text class="title" onclick="plus">
+        {{ $t('strings.hello') }} {{title}}
+    </text>
+    <div class="btn" onclick="translate('mall')">
+        <text class="btn-text">点击跳转商品详情页面</text>
+    </div>
+    <div class="btn" onclick="translate('pa')">
+        <text class="btn-text">点击跳转PA调用页面</text>
+    </div>
+    <div class="btn" onclick="openApp('js')">
+        <text class="btn-text">打开JS应用</text>
+    </div>
+    <div class="btn" onclick="openApp('native')">
+        <text class="btn-text">打开Native应用</text>
+    </div>
+</div>

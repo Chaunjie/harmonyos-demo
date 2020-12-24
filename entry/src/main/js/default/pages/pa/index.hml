@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="form-container">
+        <text class="title">
+           调用Ability方式
+        </text>
+        <div class="input-container">
+            <input type="text" class="input" value="{{num1}}" onchange="changeNum1"></input>
+            <text class="plus">+</text>
+            <input type="text" class="input" value="{{num2}}" onchange="changeNum2"></input>
+            <text class="plus">=</text>
+            <text class="result">{{result1}}</text>
+        </div>
+        <div class="btn-container" onclick="computedAbility">
+            <text class="btn-text">计算</text>
+        </div>
+    </div>
+    <div class="form-container">
+        <text class="title">
+            调用Internal Ability方式
+        </text>
+        <div class="input-container">
+            <input type="text" class="input" value="{{num1}}" onchange="changeNum1"></input>
+            <text class="plus">+</text>
+            <input type="text" class="input" value="{{num2}}" onchange="changeNum2"></input>
+            <text class="plus">=</text>
+            <text class="result">{{result2}}</text>
+        </div>
+        <div class="btn-container" onclick="computedInternalAbility">
+            <text class="btn-text">计算</text>
+        </div>
+    </div>
+</div>

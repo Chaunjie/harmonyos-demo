@@ -1,0 +1,19 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-text{
+    font-size: 50px;
+}
